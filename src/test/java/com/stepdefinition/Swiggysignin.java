@@ -14,7 +14,6 @@ import cucumber.api.java.en.When;
 public class Swiggysignin {
 	WebDriver driver;
 	Swiggy1 s;
-	
 	Swiggy ab;
 	
 	@Given("^I want nevigate swiggy online delivery page$")

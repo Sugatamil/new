@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeClass;
 import java.io.File;
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/test/resources/features/swiggy.feature"},
+        features = {"src/test/resources/features/zomato.feature"},
         glue = {"com.stepdefinition"},
         plugin = {"pretty","html:target/cucumber-html-report"}, monochrome = true
        // tags= {"@flipcartlogin"}

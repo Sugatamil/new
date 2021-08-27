@@ -2,30 +2,30 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40143" started-at="2021-08-23T23:28:39Z" finished-at="2021-08-23T23:29:20Z">
+  <suite name="Default suite" duration-ms="103872" started-at="2021-08-27T21:45:59Z" finished-at="2021-08-27T21:47:43Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.vimalselvam.cucumber.runner.TestNGCukesRunner@14bf9759]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="40143" started-at="2021-08-23T23:28:39Z" finished-at="2021-08-23T23:29:20Z">
+    <test name="Default test" duration-ms="103872" started-at="2021-08-27T21:45:59Z" finished-at="2021-08-27T21:47:43Z">
       <class name="com.vimalselvam.cucumber.runner.TestNGCukesRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.vimalselvam.cucumber.runner.TestNGCukesRunner@14bf9759]" name="setUpClass" is-config="true" duration-ms="1860" started-at="2021-08-23T16:28:39Z" finished-at="2021-08-23T16:28:41Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.vimalselvam.cucumber.runner.TestNGCukesRunner@14bf9759]" name="setUpClass" is-config="true" duration-ms="3011" started-at="2021-08-27T14:45:59Z" finished-at="2021-08-27T14:46:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.vimalselvam.cucumber.runner.TestNGCukesRunner@14bf9759]" name="feature" duration-ms="37711" started-at="2021-08-23T16:28:42Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-08-23T16:29:19Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.vimalselvam.cucumber.runner.TestNGCukesRunner@14bf9759]" name="feature" duration-ms="99210" started-at="2021-08-27T14:46:03Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-08-27T14:47:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[swiggysignin]]>
+                <![CDATA[zomato]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.vimalselvam.cucumber.runner.TestNGCukesRunner@14bf9759]" name="tearDownClass" is-config="true" duration-ms="82" started-at="2021-08-23T16:29:19Z" finished-at="2021-08-23T16:29:20Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.vimalselvam.cucumber.runner.TestNGCukesRunner@14bf9759]" name="tearDownClass" is-config="true" duration-ms="807" started-at="2021-08-27T14:47:42Z" finished-at="2021-08-27T14:47:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
